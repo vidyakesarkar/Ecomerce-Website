@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>javascript comparison</h1>
+	<h2> The () ? : Ternary Operator</h2>
+	<p>Input your age and click the button</p>
+	<input id="age" value="">
+	<button onclick="myFunction()">Try it</button>
+	<p id="demo"></p>
+	<script>
+		function myFunction(){
+			let voteable;
+			let age=Number(document.getElementById("age").value);
+			if(isNaN(age)){
+				voteable ="Input is not a number"
+			}
+			else{
+			 voteable = (age<18)? "To Young":"Old enough"
+			}
+			document.getElementById('demo').innerHTML=voteable + " to vote"
+		}
+	</script>
+</body>
+</html>

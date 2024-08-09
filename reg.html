@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Website</title>
+
+<link href="reg.css" type="text/css" rel="stylesheet"/>
+<link rel="preconnect" href="https://googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+<form id="login">
+<h2 class="heading">login to Continue</h2>
+<div>
+	<label>Email</label>
+	<input id="loginemail" type="email" placeholder="your email">
+</div>
+<div>
+	<label>Password</label>
+	<input id="loginpswd" type="password" placeholder="your Password">
+	<h3 class="error" id="error"></h3>
+</div>	
+<button onclick="login()"><a>Login</a></button>
+<h4>Not a User?<span onclick="navigation()">register here</span> </h4>
+</form>
+
+
+<form id="registration">
+<h2 class="heading">Registration</h2>
+<div>
+	<label>Name</label>
+	<input id="rname" type="text" placeholder="your name">
+</div>
+<div>
+	<label>Email</label>
+	<input id="email" type="email" placeholder="your email">
+</div>
+<div>
+	<label>Password</label>
+	<input id="rpswd" type="password" placeholder="your Password">
+	
+</div>	
+<div>
+	<label> Confirm Password</label>
+	<input id="rcpswd" type="password" placeholder="your Password again">
+	
+</div>
+<h3 class="error" id="rerror"></h3>
+<button onclick="registration()">Register</button>	
+
+</form>
+<script src="reg.js"></script>
+
+</body>
+</html>

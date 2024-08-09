@@ -1,0 +1,101 @@
+html{
+	height: 100%;
+	width: 100%;
+	font-family: 'Mukta',sans-serif;
+}
+
+body{
+	background-image: url("https://i.pinimg.com/originals/ac/ec/5c/acec5c120243145122940e5ebeabf306.jpg");
+	background-size: cover;
+}
+
+#login{display: block;}
+
+#registration{display: none;}
+
+form{
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.6);
+	width: 30%;
+	margin-left: 35%;
+	margin-top: 2%;
+	padding: 20px;
+	box-shadow: 0 0 10px black;
+}
+
+label{
+	display: block;
+	text-align: left;
+	margin-left: 10%;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+div{
+	margin: 20px;
+}
+
+.heading{
+	font-size: 30px;
+	padding: 10px;
+	color: black;
+	border-bottom: 5px solid #ffbb00;
+	padding-bottom: 4px;
+}
+
+input{
+	width: 60%;
+	height: 30px;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin-top: 5px;
+}
+
+button{
+	width: 120px;
+	height: 35px;
+	padding: 8px;
+	font-weight: bolde;
+	background-color: rgba(0, 0, 0, 0.9);
+	color: white;
+}
+
+h4{
+	color: #0000a3;
+	cursor: grab;
+}
+
+.error{
+	color: red;
+	font-size: 15px;
+}
+
+span{
+	text-decoration: underline;
+}
+
+h1,h2{
+	color: black;
+	text-align: center;
+	text-shadow: 4px 4px 8px white;
+}
+
+h1{
+	font-size: 100px;
+	margin-top: 50px;
+}
+
+h2{
+	font-size: 70px;
+}
+
+.text{
+	font-size: 30px;
+	margin: 0px;
+	text-align: center;
+	padding: 0px;
+}
+
+input span{
+	padding: 0px;
+	margin: -50;
+}
